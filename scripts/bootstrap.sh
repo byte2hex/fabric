@@ -221,13 +221,13 @@ if [ "$SAMPLES" == "true" ]; then
   echo
   echo "Installing hyperledger/fabric-samples repo"
   echo
-  samplesInstall
+  #samplesInstall
 fi
 if [ "$BINARIES" == "true" ]; then
   echo
   echo "Installing Hyperledger Fabric binaries"
   echo
-  binariesInstall
+  #binariesInstall
 fi
 if [ "$DOCKER" == "true" ]; then
   echo
