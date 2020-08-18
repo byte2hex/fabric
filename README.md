@@ -1,3 +1,42 @@
+# ubuntu development
+
+- node require: `Node ^8.13.0 || >=10.10.0"`
+- `go env -w GO111MODULE=off`
+```bash
+$ node --version
+v10.11.0
+
+$ go version
+go version go1.13.12 linux/amd64
+go env -w GO111MODULE=off
+
+$ docker-compose version
+docker-compose version 1.8.0, build unknown
+docker-py version: 1.9.0
+CPython version: 2.7.12
+OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+
+$ docker version
+Client:
+ Version:           18.09.7
+ API version:       1.39
+ Go version:        go1.10.4
+ Git commit:        2d0083d
+ Built:             Fri Aug 16 14:19:38 2019
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.09.7
+  API version:      1.39 (minimum version 1.12)
+  Go version:       go1.10.4
+  Git commit:       2d0083d
+  Built:            Thu Aug 15 15:12:41 2019
+  OS/Arch:          linux/amd64
+  Experimental:     false
+```
+
 
 # Hyperledger Fabric [![join the chat][rocketchat-image]][rocketchat-url]
 
